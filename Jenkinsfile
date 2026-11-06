@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment{
         DOCKER_HUB_REPO = "vaishnav567/gitops-project"
-        DOCKER_HUB_CREDENTIALS_ID = "gitops_dockerhub_token"
+        DOCKER_HUB_CREDENTIALS_ID = "gitops-dockerhub-token"
     }
     stages {
         stage('Checkout Github') {
